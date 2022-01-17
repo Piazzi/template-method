@@ -4,7 +4,7 @@
 
 # Code
 
-Simple project representing the Template Method design pattern.
+Simple project representing the Template Method design pattern. For this one i made a payment gate example, Payment being the super class and Crypto/CreditCard the sub classes, implemented with the template method caracteristics.
 
 # Definition
 
