@@ -1,7 +1,7 @@
 public class Crypto extends PaymentMethod {
 
     public String verifyTransaction() {
-        return this.pay() ? "Approved" : "Denied";
+        return this.pay() && getTax() == 0 ? "Approved" : "Denied";
     }
 
     @Override
